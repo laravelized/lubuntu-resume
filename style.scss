@@ -1,17 +1,54 @@
 @import 'node_modules/bootstrap/scss/bootstrap.scss';
 
+html {
+}
+
 body {
-    background-color: #DCDCDC;
+	background: #f7f7f7;
     margin-left: 100px;
     margin-right: 100px;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 100px;
 }
 
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .container {
     background-color: white;
+    border: 1px solid #f0f0f0;
+}
+
+h3 strong {
+	color: #0851bc;
+	font-weight: 300;
+}
+
+small {
+	color: #999;
+}
+
+.main-wrapper {
+	border-radius: 10px;
+}
+
+.bluish {
+	color: #0851bc;
+}
+
+table th {
+	font-weight: 500;
+}
+
+table td {
+	font-weight: 300;
+}
+
+.lighter-font {
+	font-weight: 300;
+}
+
+.reference p {
+	margin-bottom: 0;
 }
